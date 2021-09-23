@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "basic-calc"
+    "url": "https://github.com/linusmanuel/basic__calculator.git"
   },
   "keywords": [
-    "calc"
+    "calculator"
   ],
   "author": "Linus Manuel",
   "license": "ISC"
