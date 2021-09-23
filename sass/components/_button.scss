@@ -11,8 +11,16 @@
     font-size: 2rem;
     background: none;
 
+    &:hover {
+      color: $color-tertiary-dark;
+    }
+
     &--operator {
       color: $color-tertiary-dark;
+
+      &:hover {
+        color: $color-black;
+      }
     }
 
     &--equals {
@@ -25,6 +33,29 @@
 
       &:hover {
         background-color: $color-tertiary-dark;
+        color: $color-black;
+      }
+    }
+
+    &--dell {
+      position: relative;
+
+      span {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        border: 2px solid $color-black;
+        border-radius: 5px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:hover span {
+        border: 2px solid $color-tertiary-dark;
       }
     }
   }

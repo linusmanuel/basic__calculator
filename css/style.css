@@ -31,8 +31,12 @@ body {
     font-family: inherit;
     font-size: 2rem;
     background: none; }
+    .btn-container .btn:hover {
+      color: #f83c3b; }
     .btn-container .btn--operator {
       color: #f83c3b; }
+      .btn-container .btn--operator:hover {
+        color: #000; }
     .btn-container .btn--equals {
       width: 2.4rem;
       height: 2.4rem;
@@ -41,7 +45,24 @@ body {
       border-radius: 5px;
       box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
       .btn-container .btn--equals:hover {
-        background-color: #f83c3b; }
+        background-color: #f83c3b;
+        color: #000; }
+    .btn-container .btn--dell {
+      position: relative; }
+      .btn-container .btn--dell span {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        border: 2px solid #000;
+        border-radius: 5px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      .btn-container .btn--dell:hover span {
+        border: 2px solid #f83c3b; }
 
 .calculator {
   width: 280px;
