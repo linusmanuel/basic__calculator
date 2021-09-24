@@ -1,7 +1,7 @@
 .menu {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 1rem;
+  padding: 1.2rem 1rem;
 
   a {
     text-decoration: none;
@@ -10,6 +10,7 @@
   }
 
   &__standard {
+    border-bottom: 2px solid $color-tertiary-light;
   }
 
   &__scientific {

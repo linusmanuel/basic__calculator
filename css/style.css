@@ -86,14 +86,31 @@ body {
         font-weight: 500;
         padding-top: 0; }
 
+.theme {
+  display: flex;
+  justify-content: left; }
+  .theme .light-mode,
+  .theme .dark-mode {
+    width: 55px;
+    height: 25px;
+    border-radius: 15px; }
+  .theme .light-mode {
+    background: #fff url("../svg/sun.svg") no-repeat center;
+    background-size: 18px; }
+  .theme .dark-mode {
+    background: #000 url("../svg/moon.svg") no-repeat center;
+    background-size: 16px; }
+
 .menu {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 1rem; }
+  padding: 1.2rem 1rem; }
   .menu a {
     text-decoration: none;
     font-size: 0.8rem;
     color: #000; }
+  .menu__standard {
+    border-bottom: 2px solid #fa5655; }
 
 .header {
   display: flex;

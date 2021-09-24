@@ -1,15 +1,12 @@
-@import "abstract/functions";
-@import "abstract/mixins";
 @import "abstract/variables";
 
-@import "base/animations";
 @import "base/base";
 @import "base/typograph";
-@import "base/utilities";
 
 @import "components/button";
 @import "components/calculator";
-@import "components/menu";
+@import "components/theme";
 
-@import "pages/about";
+@import "layout/menu";
+
 @import "pages/home";
