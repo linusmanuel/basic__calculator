@@ -1,0 +1,47 @@
+# CALCULADORA COM DESIGN MINIMALISTA
+
+Calculadora básica inspirada no design minimalista da designer Ana Clara.
+
+## 🚀 Começando
+
+📲[Utiliza o APP](https://calclinus.netlify.app/)
+
+📲[Veja um video do app funcionando!](https://youtu.be/Suudbh7Yv70)
+
+Consulte **Implantação** para saber como implantar o projeto.
+
+### 📋 Pré-requisitos
+
+```
+Conexão à internet
+```
+
+### 💻 Acesso
+
+Utiliza o app clicando no link de acesso:
+
+📲[APP](https://calclinus.netlify.app/)
+
+## 🛠️ Construído com
+
+Mencione as ferramentas que você usou para criar seu projeto
+
+- [HTML](https://www.w3schools.com/html/) - Linguagem de marcação usada
+- [CSS](https://www.w3schools.com/css/) - Usada para estilizar o app
+- [SASS](https://www.w3schools.com/sass/) - Usada para estilizar o app
+- [Javascript](https://www.w3schools.com/js/default.asp) - Lógica da app
+
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+- **Linus Manuel** - _Desenvolvedor_ - [Linus Manuel](https://github.com/linusmanuel)
+- **Nicasio Marques** - _Desenvolvedor_ - [Nicasio Marques](https://github.com/nicasiomarques)
+
+- **Ana Clara** - _Designer_ 🖌
+
+## 🎁 Expressões de gratidão
+
+- Quannto mais difícil maior a satisfação 🙌
+- Obrigado! 😉
+
