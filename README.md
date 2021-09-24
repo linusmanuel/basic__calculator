@@ -15,13 +15,6 @@ Consulte **Implantação** para saber como implantar o projeto.
 ```
 Conexão à internet
 ```
-
-### 💻 Acesso
-
-Utiliza o app clicando no link de acesso:
-
-📲[APP](https://calclinus.netlify.app/)
-
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
@@ -33,8 +26,6 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
 - **Linus Manuel** - _Desenvolvedor_ - [Linus Manuel](https://github.com/linusmanuel)
 - **Nicasio Marques** - _Desenvolvedor_ - [Nicasio Marques](https://github.com/nicasiomarques)
 
@@ -42,6 +33,6 @@ Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 ## 🎁 Expressões de gratidão
 
-- Quannto mais difícil maior a satisfação 🙌
+- Quanto mais difícil maior a satisfação 🙌
 - Obrigado! 😉
 
