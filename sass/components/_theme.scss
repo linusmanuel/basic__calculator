@@ -1,0 +1,21 @@
+.theme {
+  display: flex;
+  justify-content: left;
+
+  .light-mode,
+  .dark-mode {
+    width: 55px;
+    height: 25px;
+    border-radius: 15px;
+  }
+
+  .light-mode {
+    background: $color-white url("../svg/sun.svg") no-repeat center;
+    background-size: 18px;
+  }
+
+  .dark-mode {
+    background: $color-black url("../svg/moon.svg") no-repeat center;
+    background-size: 16px;
+  }
+}
