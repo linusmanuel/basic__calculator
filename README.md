@@ -1,4 +1,5 @@
 # CALCULADORA COM DESIGN MINIMALISTA
+![Calc_UI](https://user-images.githubusercontent.com/79695824/134748952-c244f11e-5a8a-4b7b-a8db-d0e64c7e351d.jpeg)
 
 Calculadora básica inspirada no design minimalista da designer Ana Clara.
 
