@@ -5,7 +5,7 @@ Calculadora básica inspirada no design minimalista da designer Ana Clara.
 
 ## 🚀 Começando
 
-📲<a href="https://calclinus.netlify.app/">Utiliza o APP</a>
+📲<a href="https://calclinus.netlify.app/" target="_blank">Utiliza o APP</a>
 
 📲[Veja um video do app funcionando!](https://youtu.be/Suudbh7Yv70)
 
