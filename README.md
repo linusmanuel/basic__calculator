@@ -5,7 +5,8 @@ Calculadora básica inspirada no design minimalista da designer Ana Clara.
 
 ## 🚀 Começando
 
-📲<a href="https://calclinus.netlify.app/" target="_blank">Utiliza o APP</a>
+📲 <a href="https://calclinus.netlify.app/" target="_blank">Utiliza o APP</a>
+
 
 📲[Veja um video do app funcionando!](https://youtu.be/Suudbh7Yv70)
 
@@ -23,8 +24,8 @@ Conexão à internet
 
 ## ✒️ Autores
 
-- **Linus Manuel** - _Desenvolvedor_ - [Linus Manuel](https://github.com/linusmanuel)
-- **Nicasio Marques** - _Desenvolvedor_ - [Nicasio Marques](https://github.com/nicasiomarques)
+- **Linus Manuel** - _Desenvolvedor_ - <a href="https://github.com/linusmanuel" target="_blank">Linus Manuel</a>
+- **Nicasio Marques** - _Desenvolvedor_ - <a href="https://github.com/nicasiomarques" target="_blank">Nicasio Marques</a>
 
 - **Ana Clara** - _Designer_ 🖌
 
