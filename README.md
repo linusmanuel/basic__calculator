@@ -16,8 +16,6 @@ Conexão à internet
 ```
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
-
 - [HTML](https://www.w3schools.com/html/) - Linguagem de marcação usada
 - [CSS](https://www.w3schools.com/css/) - Usada para estilizar o app
 - [SASS](https://www.w3schools.com/sass/) - Usada para estilizar o app
