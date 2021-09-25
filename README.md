@@ -1,15 +1,13 @@
 # CALCULADORA COM DESIGN MINIMALISTA
-![Calc_UI](https://user-images.githubusercontent.com/79695824/134748952-c244f11e-5a8a-4b7b-a8db-d0e64c7e351d.jpeg)
-
 Calculadora básica inspirada no design minimalista da designer Ana Clara.
+
+![Calc_UI](https://user-images.githubusercontent.com/79695824/134748952-c244f11e-5a8a-4b7b-a8db-d0e64c7e351d.jpeg)
 
 ## 🚀 Começando
 
 📲[Utiliza o APP](https://calclinus.netlify.app/)
 
 📲[Veja um video do app funcionando!](https://youtu.be/Suudbh7Yv70)
-
-Consulte **Implantação** para saber como implantar o projeto.
 
 ### 📋 Pré-requisitos
 
