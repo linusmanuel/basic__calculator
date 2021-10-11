@@ -2,43 +2,60 @@ const $ = document.querySelector.bind(document)
 const currentOperation = $('.input__resulted')
 const previewOperation = $('.input__previous')
 
-const OPERATIONS = ['+', '-', '*', '/']
-
-const dell = (field) => field.value = ''
-
-function clear(currentOperation, previewOperation) {
-  dell(currentOperation)
-  dell(previewOperation)
+const Operation = {
+  Sum: '+',
+  Subtraction: '-',
+  Division: '/',
+  multiplication: '*',
+  Clear: 'c',
+  Negative: 'negative',
+  Delete: 'del',
+  Equals: '=',
 }
 
-function negative(currentOperation) {
-  currentOperation.value = -currentOperation.value
-}
+const OPERATIONS = [
+  Operation.multiplication,
+  Operation.Subtraction,
+  Operation.Negative,
+  Operation.Division,
+  Operation.Delete,
+  Operation.Clear,
+  Operation.Sum,
+]
 
-function joinExpression(value) {
-  currentOperation.value += value
-}
+const clearFields = (fields = []) => fields.forEach(field => (field.value = ''))
 
-function calcAndShowCurrentOperation(previewOperation) {
-  previewOperation.value = eval(previewOperation.value)
-}
+const negative = currentOperation => (currentOperation.value = -currentOperation.value)
 
-const isAction = (type) => type === 'action'
-const clearPressed = (value) => value === 'c'
-const equalsPressed = (value) => value === '='
-const valuePressed = (value) => value === 'value'
-const negativePressed = (value) => value === 'negative'
-const dellPressed = (value) => value === 'dell'
+const joinExpression = value => (currentOperation.value += value)
+
+const calcAndShowCurrentOperation = previewOperation =>
+  (previewOperation.value = eval(previewOperation.value))
+
+const isAction = type => type === 'action'
+const valuePressed = type => type === 'value'
+
+const ActionMaker =
+  (currentOperation, previewOperation) =>
+  (buttonPressed = '') => {
+    const allActions = {
+      [Operation.Clear]: () => clearFields([currentOperation, previewOperation]),
+      [Operation.Equals]: () => calcAndShowCurrentOperation(currentOperation),
+      [Operation.Negative]: () => negative(currentOperation),
+      [Operation.Delete]: () => clearFields([currentOperation]),
+    }
+
+    const fallback = (value = buttonPressed) => joinExpression(value)
+
+    return allActions[buttonPressed] || fallback
+  }
 
 function calc(type, value) {
   if (isAction(type)) {
     previewOperation.value = currentOperation.value
-    if (clearPressed(value)) clear(currentOperation, previewOperation)
-    if (dellPressed(value)) dell(currentOperation)
-    if (OPERATIONS.includes(value)) joinExpression(value)
-    if (negativePressed(value)) negative(currentOperation)
-    if (equalsPressed(value)) calcAndShowCurrentOperation(currentOperation)
+    const selectedAction = ActionMaker(currentOperation, previewOperation)(value)
+    if (selectedAction) selectedAction()
   }
 
-  if (valuePressed(type)) currentOperation.value += value
+  if (valuePressed(type)) joinExpression(value)
 }
