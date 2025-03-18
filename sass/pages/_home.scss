@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
+
+  .profile-box {
+    width: 16rem;
+
+    &__img {
+      width: 3rem;
+      height: 3rem;
+      margin-right: 1rem;
+      background-size: cover;
+      border-radius: 1.5rem;
+      float: left;
+
+      &--1 {
+        background-image: url("../img/developer.png");
+      }
+
+      &--2 {
+        background-image: url("../img/designer.png");
+      }
+    }
+
+    &__text {
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

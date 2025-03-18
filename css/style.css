@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  background-color: #f83c3b; }
+
+body {
+  font-family: "poppins", sans-serif;
+  line-height: 1.7;
+  color: #fff; }
+
+.heading__tertiary {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0; }
+  .header .profile-box {
+    width: 16rem; }
+    .header .profile-box__img {
+      width: 3rem;
+      height: 3rem;
+      margin-right: 1rem;
+      background-size: cover;
+      border-radius: 1.5rem;
+      float: left; }
+      .header .profile-box__img--1 {
+        background-image: url("../img/developer.png"); }
+      .header .profile-box__img--2 {
+        background-image: url("../img/designer.png"); }
+    .header .profile-box__text p {
+      font-size: 0.7rem; }
