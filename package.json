@@ -1,0 +1,23 @@
+{
+  "name": "calc-app--v2",
+  "version": "1.0.0",
+  "description": "Basic calculator",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "basic-calc"
+  },
+  "keywords": [
+    "calc"
+  ],
+  "author": "Linus Manuel",
+  "license": "ISC"
+}
