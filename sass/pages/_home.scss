@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
-  padding: 4rem 0;
+  padding: 1.5rem 0;
 
   .profile-box {
     width: 16rem;
@@ -29,4 +29,9 @@
       }
     }
   }
+}
+
+.section-calculator {
+  display: flex;
+  justify-content: space-around;
 }

@@ -1,0 +1,36 @@
+.calculator {
+  width: 280px;
+  height: 560px;
+  padding: 2rem;
+  background: linear-gradient(
+    180deg,
+    $color-primary-light 0%,
+    $color-primary-dark 50.52%,
+    rgba($color-primary-light, 0.87) 100%
+  );
+  border-radius: 20px;
+  box-shadow: 0 1.5rem 2rem rgba($color-black, 0.4);
+
+  .input-group {
+    padding: 1rem;
+
+    .input {
+      width: 100%;
+      font-family: inherit;
+      font-size: 0.8rem;
+      text-align: right;
+      color: $color-black;
+      background: none;
+      display: inline-block;
+
+      &__previous {
+      }
+
+      &__resulted {
+        font-size: 3rem;
+        font-weight: 500;
+        padding-top: 0;
+      }
+    }
+  }
+}

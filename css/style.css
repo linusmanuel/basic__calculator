@@ -3,7 +3,8 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  border: none;
+  box-sizing: border-box; }
 
 body {
   background-color: #f83c3b; }
@@ -19,10 +20,64 @@ body {
   text-transform: capitalize;
   color: #fff; }
 
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .btn-container .btn {
+    width: 3rem;
+    height: 3rem;
+    margin: 2.5px;
+    font-family: inherit;
+    font-size: 2rem;
+    background: none; }
+    .btn-container .btn--operator {
+      color: #f83c3b; }
+    .btn-container .btn--equals {
+      width: 2.4rem;
+      height: 2.4rem;
+      line-height: 2.4rem;
+      background-color: #fa5655;
+      border-radius: 5px;
+      box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
+      .btn-container .btn--equals:hover {
+        background-color: #f83c3b; }
+
+.calculator {
+  width: 280px;
+  height: 560px;
+  padding: 2rem;
+  background: linear-gradient(180deg, #dedede 0%, #cacaca 50.52%, rgba(222, 222, 222, 0.87) 100%);
+  border-radius: 20px;
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4); }
+  .calculator .input-group {
+    padding: 1rem; }
+    .calculator .input-group .input {
+      width: 100%;
+      font-family: inherit;
+      font-size: 0.8rem;
+      text-align: right;
+      color: #000;
+      background: none;
+      display: inline-block; }
+      .calculator .input-group .input__resulted {
+        font-size: 3rem;
+        font-weight: 500;
+        padding-top: 0; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem; }
+  .menu a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #000; }
+
 .header {
   display: flex;
   justify-content: space-around;
-  padding: 4rem 0; }
+  padding: 1.5rem 0; }
   .header .profile-box {
     width: 16rem; }
     .header .profile-box__img {
@@ -38,3 +93,7 @@ body {
         background-image: url("../img/designer.png"); }
     .header .profile-box__text p {
       font-size: 0.7rem; }
+
+.section-calculator {
+  display: flex;
+  justify-content: space-around; }

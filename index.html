@@ -39,6 +39,47 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <section class="section-calculator">
+        <div class="calculator">
+          <div class="menu">
+            <a href="#" class="menu__standard">standard</a>
+            <a href="#" class="menu__scientific">scientific</a>
+          </div>
+
+          <div class="input-group">
+            <input type="text" id="" class="input input__previous" placeholder="0">
+            <input type="text" id="" class="input input__resulted" placeholder="0">
+          </div>
+
+          <form class="form">
+            <div class="btn-container">
+              <button onclick="calc('action', 'c')" type="button" class="btn">C</button>
+              <button onclick="calc('action', '%')" type="button" class="btn">%</button>
+              <button onclick="calc('action', 'negative')" type="button" class="btn">±</button>
+              <button onclick="calc('action', '/')" type="button" class="btn btn--operator">÷</button>
+              <button onclick="calc('value', 7)" type="button" class="btn">7</button>
+              <button onclick="calc('value', 8)" type="button" class="btn">8</button>
+              <button onclick="calc('value', 9)" type="button" class="btn">9</button>
+              <button onclick="calc('action', '*')" type="button" class="btn btn--operator">×</button>
+              <button onclick="calc('value', 4)" type="button" class="btn">4</button>
+              <button onclick="calc('value', 5)" type="button" class="btn">5</button>
+              <button onclick="calc('value', 6)" type="button" class="btn">6</button>
+              <button onclick="calc('action', '-')" type="button" class="btn btn--operator">-</button>
+              <button onclick="calc('value', 1)" type="button" class="btn">1</button>
+              <button onclick="calc('value', 2)" type="button" class="btn">2</button>
+              <button onclick="calc('value', 3)" type="button" class="btn">3</button>
+              <button onclick="calc('action', '+')" type="button" class="btn btn--operator">+</button>
+              <button onclick="calc('action', 'dell')" type="button" class="btn btn--dell">×</button>
+              <button onclick="calc('value', 0)" type="button" class="btn">0</button>
+              <button onclick="calc('value', '.')" type="button" class="btn">.</button>
+              <button onclick="calc('action', '=')" type="button" class="btn btn--equals">=</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 
 </html>
